@@ -1,4 +1,4 @@
-# İlk View'ı Oluşturma
+# İlk View'ları Oluşturma
 1) App klasörünün altındaki views.py dosyasına aşağıdaki gibi bir fonksiyon ekleyin.
 
 `myapp/views.py`
