@@ -1,1 +1,0 @@
-# Sanal Ortam Kurulumu
