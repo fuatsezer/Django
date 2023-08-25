@@ -13,5 +13,8 @@
 >>> a.save()
 >>> b = Product(name="iPad", price=1200, desc="This is an iPad")
 >>> b.save()
-
+>>> Product.objects.all()
+<QuerySet [<Product: iPhone>, <Product: iPad>]>
+>>> Product.objects.get(id=1)
+<Product: iPhone>
 ```
