@@ -23,4 +23,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 ```
-3) 
+3) Aşağıdaki komutları çalıştırın. (models.py da Her yeni class oluşturduğunuzda)
+
+```console
+(env) C:\Users\fsezer\Desktop\Django\djangopro\mysite>python manage.py makemigrations
+(env) C:\Users\fsezer\Desktop\Django\djangopro\mysite>python manage.py migrate
+```
+
+
