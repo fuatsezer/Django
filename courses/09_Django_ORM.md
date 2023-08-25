@@ -1,4 +1,4 @@
-## INSERT with DJANGO ORM
+## DJANGO ORM
 1) Aşağıdaki komutu çalıştırarak python shell'i açın (exit() yazarak python shell'i kapatabilirsiniz)
 
 ```console
