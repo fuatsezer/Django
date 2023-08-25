@@ -27,3 +27,17 @@
 >>> product1.price
 900
 ```
+## DJANGO ORM with Admin Panel
+1) İlk önce admin paneli için superuser oluşturalım. Aşağıdaki kodu kullanalım.
+```console
+(env) C:\Users\fsezer\Desktop\Django\djangopro\mysite>python manage.py createsuperuser
+```
+
+2) modelleri admin paneline kaydetmek için admin.py'a  aşağıdaki komutu yazın.
+
+```python
+from django.contrib import admin
+from .models import Product
+# Register your models here.
+admin.site.register(Product)
+```
