@@ -17,4 +17,13 @@
 <QuerySet [<Product: iPhone>, <Product: iPad>]>
 >>> Product.objects.get(id=1)
 <Product: iPhone>
+>>> product1 = Product.objects.get(id=1)
+>>> product1
+<Product: iPhone>
+>>> product1.name
+'iPhone'
+>>> product1.desc
+'This is an iPhone'
+>>> product1.price
+900
 ```
